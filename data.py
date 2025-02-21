@@ -5,7 +5,7 @@ import torch.optim as optim
 import torchvision.transforms as transforms
 from torch.utils.data import DataLoader
 import matplotlib.pyplot as plt
-from torchvision.datasets import CIFAR10, FashionMNIST, CIFAR100
+from torchvision.datasets import CIFAR10, CIFAR100
 
 # Configure CUDA memory management
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
